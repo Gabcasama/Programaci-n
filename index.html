@@ -4,13 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presentación Personal</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', Arial, sans-serif;
+            background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+            color: #333;
+        }
+        header {
+            background-color: #4F8A8B;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+            letter-spacing: 2px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        main {
+            max-width: 700px;
+            margin: 2rem auto;
+            background: rgba(255,255,255,0.85);
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 2px 16px rgba(79,138,139,0.07);
+        }
+        p {
+            font-size: 1.2rem;
+        }
+        .info {
+            margin-top: 2rem;
+        }
+        ul {
+            margin: 0.5rem 0 0 1.2rem;
+            font-size: 1.06rem;
+        }
+        .card {
+            background: #f9f9f9;
+            border-left: 4px solid #4F8A8B;
+            padding: 1rem;
+            margin-top: 2rem;
+            border-radius: 12px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 1rem 0;
+            background: #4F8A8B;
+            color: #fff;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+            border-radius: 0 0 16px 16px;
+        }
+        @media (max-width: 600px) {
+            main {
+                padding: 1rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Hola, soy Gabriel</h1>
+        <h1>Hola, soy Gabriel 👋</h1>
     </header>
     <main>
         <p>Me llamo Gabriel y estoy emocionado/a de aprender en esta asignatura. Espero adquirir nuevos conocimientos y habilidades que me ayuden a crecer profesionalmente.</p>
+        
+        <section class="info">
+            <h2>Sobre mí</h2>
+            <ul>
+                <li>📚 Estudiante apasionado por la programación y la tecnología.</li>
+                <li>🎯 Motivado para superar nuevos retos y aprender cada día.</li>
+                <li>🤝 Disfruto colaborar y compartir ideas con mis compañeros.</li>
+            </ul>
+        </section>
+
+        <div class="card">
+            <h3>Mis objetivos para esta asignatura</h3>
+            <ul>
+                <li>Aprender fundamentos sólidos de programación.</li>
+                <li>Desarrollar proyectos prácticos y creativos.</li>
+                <li>Mejorar mi capacidad de resolución de problemas.</li>
+                <li>Colaborar y comunicarme efectivamente en equipo.</li>
+            </ul>
+        </div>
+
+        <section class="info">
+            <h2>Contacto</h2>
+            <ul>
+                <li>Email: <a href="mailto:gabriel@email.com">gabriel@email.com</a></li>
+                <li>GitHub: <a href="https://github.com/Gabcasama" target="_blank">Gabcasama</a></li>
+            </ul>
+        </section>
     </main>
+    <footer>
+        &copy; 2025 Gabriel Casama | Página de Presentación
+    </footer>
 </body>
 </html>
